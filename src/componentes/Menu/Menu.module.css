@@ -1,0 +1,23 @@
+nav{
+    background-color: black;
+    height: 50px;
+   
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+   
+}
+
+
+nav a:link, nav a:visited {
+    border: 2px solid yellow;
+    margin: auto;
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 10px;
+
+}
